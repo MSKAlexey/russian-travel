@@ -2,9 +2,9 @@
 @import url(../vendor/normalize.css);
 /* Конец */
 
-/* Шрифт Inter */
-@import url(../fonts/Inter/inter.css);
-/* Конец */
+/* Шрифт Inter
+@import url(../fonts/inter/fonts.css);
+Конец */
 
 /* Блок header */
 @import url(../blocks/page/page.css);
@@ -24,3 +24,10 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 /* Конец блока lead */
+
+/* Секция intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+/* Конец блока intro */
