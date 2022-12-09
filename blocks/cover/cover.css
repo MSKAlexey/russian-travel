@@ -2,29 +2,28 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
+    min-width: 320px;
+    min-height: 200px;
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    padding-top: 33px;
-    padding-right: 16px;
-    padding-bottom: 33px;
-    padding-left: 16px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
     
-    position: relative;
+    /* position: relative; */
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .cover {
-        padding-top: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-    }   
-} */
 
-.cover::before {
+    }   
+}
+
+/* .cover::before {
     position: absolute;
     background-color: #000000;
     opacity: 0.3;
@@ -32,4 +31,4 @@
 
 .cover:hover::before {
     opacity: 0.1;
-}
+} */
