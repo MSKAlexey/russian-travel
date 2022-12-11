@@ -1,11 +1,11 @@
-.lead__image {
+.page__container {
     margin-top: 0;
-    margin-right: 0;
+    margin-right: auto;
     margin-bottom: 0;
-    margin-left: 0;
+    margin-left: auto;
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    max-width: 100%;
+    max-width: 1280px;
 }

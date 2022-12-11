@@ -3,8 +3,31 @@
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    padding-top: 0;
+    padding-top: 4px;
     padding-right: 0;
     padding-bottom: 0;
-    padding-left: 0;
+    padding-left: 16px;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
+
+@media screen and (min-width: 768px) {
+    .lead__caption {
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        padding-left: 24px;
+        padding-left: 24px;
+    }   
+} 
+
+@media screen and (min-width: 1024px) {
+    .lead__caption {
+        padding-left: 0;
+    }   
+}  
