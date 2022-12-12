@@ -1,3 +1,7 @@
-.places__title {
-    
+.places__title {  
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;  
+    color: #FFFFFF;
 }
