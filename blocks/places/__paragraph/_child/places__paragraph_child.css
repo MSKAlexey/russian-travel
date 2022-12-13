@@ -1,0 +1,3 @@
+.places__paragraph:nth-of-type(even) {
+    padding-top: 25px;
+}

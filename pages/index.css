@@ -43,9 +43,13 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__title/_child/places__title_child.css);
 @import url(../blocks/places/__website/places__website.css);
+@import url(../blocks/places/__url/places__url.css);
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
+@import url(../blocks/places/__paragraph/_child/places__paragraph_child.css);
 /* Конец блока places */
 
 /* Секция cover */
@@ -61,3 +65,6 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /* Конец блока footer */
+
+/* Убираем нижнее подчеркивание ссылки и делаем underline */
+@import url(../blocks/underline/underline.css);
