@@ -3,10 +3,7 @@
     font-size: 14px;
     line-height: 16px;
     text-align: center;
-    margin-top: 16px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+    margin: 16px 12px 0;
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
@@ -17,10 +14,11 @@
     .cover__subtitle {
         font-size: 18px;
         line-height: 22px;
-        padding-top: 32px;
-        padding-right: 204px;
-        padding-bottom: 115px;
-        padding-left: 204px;
+        max-width: 360px;
+        margin-top: 33px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
     }   
 }
 
@@ -28,9 +26,5 @@
     .cover__subtitle {
         font-size: 18px;
         line-height: 22px;
-        padding-top: 32px;
-        padding-right: 204px;
-        padding-bottom: 115px;
-        padding-left: 204px;
     }   
 }
