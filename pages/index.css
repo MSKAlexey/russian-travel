@@ -64,6 +64,7 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/_child/footer__link_child.css);
 /* Конец блока footer */
 
 /* Убираем нижнее подчеркивание ссылки и делаем underline */
