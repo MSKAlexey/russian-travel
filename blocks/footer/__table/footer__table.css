@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 768px) {
     .footer__table {
-        flex-direction: row;
+        display: flex;
+    flex-direction: row;
     }
-}
 }
