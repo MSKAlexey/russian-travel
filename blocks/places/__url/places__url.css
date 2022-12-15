@@ -9,6 +9,7 @@
     line-height: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 768px) {

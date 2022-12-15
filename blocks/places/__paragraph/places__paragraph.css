@@ -1,7 +1,7 @@
 .places__paragraph {
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     margin: 0;
-    padding-top: 32px;
+    padding-top: 25px;
     padding-right: 16px;
     padding-bottom: 0;
     padding-left: 16px;
@@ -10,9 +10,19 @@
     line-height: 26px;
 }
 
+.places__paragraph:first-child {
+    padding-top: 28px;
+}
+
 @media screen and (min-width: 768px) {
     .places__paragraph {
-        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .places__paragraph:first-child {
         padding: 0;
     }
 }

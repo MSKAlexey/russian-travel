@@ -5,10 +5,14 @@
     line-height: 35px;
     color: #FFFFFF;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 0;
     padding-right: 12px;
     padding-bottom: 0;
     padding-left: 16px;
+}
+
+.places__title:first-child {
+    padding-left: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,7 +20,6 @@
         font-size: 42px;
         line-height: 46px;
         padding-left: 0;
-        padding-top: 25px;
     }
 }
 
@@ -24,5 +27,6 @@
     .places__title {
         font-size: 72px;
         line-height: 76px;
+        padding: 0;
     }
 }

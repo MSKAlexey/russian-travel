@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
