@@ -1,15 +1,12 @@
 .places__article {
     padding-top: 50px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
 }
 
 .places__article:first-child {
     padding-top: 64px;
-}
-
-@media screen and (min-width: 768px) {
-    .places__article:first-child {
-        padding-top: 0;
-    }
 }
 
 @media screen and (min-width: 768px) {
@@ -19,12 +16,12 @@
         display: grid;
         grid-template-columns: 340px 1fr;
         gap: 48px 28px;
+        padding-top: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .places__article {
-        padding: 0;
         grid-template-columns: 440px 1fr;
         gap: 52px 32px;
     }
@@ -32,7 +29,6 @@
 
 @media screen and (min-width: 1280px) {
     .places__article {
-        max-width: 984px;
         grid-template-columns: 460px 1fr;
         gap: 52px 40px;
     }

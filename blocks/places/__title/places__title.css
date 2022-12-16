@@ -11,10 +11,6 @@
     padding-left: 16px;
 }
 
-.places__title:first-child {
-    padding-left: 0;
-}
-
 @media screen and (min-width: 768px) {
     .places__title {
         font-size: 42px;
@@ -27,6 +23,6 @@
     .places__title {
         font-size: 72px;
         line-height: 76px;
-        padding: 0;
+        padding-right: 0;
     }
 }

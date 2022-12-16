@@ -9,6 +9,8 @@
         max-width: 720px;
         margin-right: auto;
         margin-left: auto;
+        display: grid;
+        gap: 72px;
     }
 }
 
@@ -16,9 +18,12 @@
     .places {
         padding-top: 92px;
         max-width: 928px;
-        margin-right: auto;
-        margin-left: auto;
-        display: grid;
         gap: 76px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+        max-width: 984px;
     }
 }
