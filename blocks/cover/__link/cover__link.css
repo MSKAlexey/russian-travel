@@ -20,19 +20,12 @@
 
 @media screen and (min-width: 946px) {
     .cover__link {
-        padding-top: 135px;
-        padding-right: 40px;
-        padding-left: 40px;
         min-height: 640px;
-        box-sizing: border-box;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__link {
-        padding-top: 187px;
-        padding-right: 119px;
-        padding-left: 120px;
         min-height: 740px;
         max-width: 1184px;
     }
